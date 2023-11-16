@@ -1,4 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    color: white;
+    background-color: #1F2937;
+    padding-bottom: 75px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.nav-container {
+    width: 75%;
+    margin: 0px auto;
+}
+
+.hero {
+    margin-top: 75px;
+    display: flex;
+}
+
+.hero-img {
+    width: 200px;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-header {
+    font-size: 54px;
+}
+
+.hero-content {
+    margin: 15px 0;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+.button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 1px solid #3882F6;
+    padding: 5px 25px;
+    color: white;
 }
 
