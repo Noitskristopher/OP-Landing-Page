@@ -7,11 +7,15 @@ body {
     font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
 }
 
-nav {
-    color: white;
-    background-color: #1F2937;
-    padding-bottom: 75px;
+.title {
+    font-size: 20px;
+    font-weight: bolder;
 }
+
+nav {
+    background-color: white;
+    padding-bottom: 75px;
+    }
 
 ul {
     margin: 0;
@@ -26,14 +30,7 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
+    color: black;
 }
 
 .nav-container {
@@ -41,17 +38,24 @@ a {
     margin: 0px auto;
 }
 
-.hero {
-    margin-top: 75px;
+.header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    margin: 0 auto;
+}
+
+.hero {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
 }
 
 .hero-img {
-    width: 200px;
-}
-
-.hero-img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30% 70% 70% 30% / 76% 55% 45% 24% ;
 }
 
 .hero-header {
@@ -63,18 +67,26 @@ a {
 }
 
 .left {
-    flex: 1;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .right {
-    flex: 1;
+    flex: 3;
 }
 
 .button {
-    background-color: #3882F6;
+    background-color: rgb(54, 122, 233);
+    font-weight: bold;
     border-radius: 5px;
-    border: 1px solid #3882F6;
-    padding: 5px 25px;
+    border: none;
+    padding: 10px 25px;
     color: white;
+}
+
+.button:hover {
+    opacity: 90%;
 }
 
