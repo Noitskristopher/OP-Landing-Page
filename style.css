@@ -141,3 +141,20 @@ a {
     width: 100%;
     margin-bottom: 5px;
 }
+
+.brand-message {
+    width: 75%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.quote  {
+    font-size: 32px;
+    font-style: italic;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: end;
+}
