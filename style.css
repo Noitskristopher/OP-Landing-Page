@@ -41,7 +41,7 @@ a {
     text-decoration: none;
 }
 
-.nav-container, .content {
+.nav-container, .content, .sign-container {
     width: 75%;
     margin: 0px auto;
 }
@@ -99,7 +99,7 @@ a {
 }
 
 .content {
-    padding: 50px 0 100px 0;
+    padding: 150px 0;
     margin: 0 auto;
     text-align: center;
 }
@@ -157,4 +157,21 @@ a {
     font-weight: bolder;
     font-size: 24px;
     text-align: end;
+}
+
+.sign-up-card {
+    background-color: #008ECF;
+    color: white;
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    background-color: #F2F2F2;
+    padding: 25px;
+    text-align: center;
 }
