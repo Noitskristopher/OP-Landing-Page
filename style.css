@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+/* colors */
+/* #008ECF this is primary */
+/* #0179AC this is secondary */
+/* #E95E1C this is accent color */
+
 body {
     font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
 }
@@ -17,6 +22,10 @@ nav {
     padding-bottom: 75px;
     }
 
+.list a {
+    color: black;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -30,10 +39,9 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
 }
 
-.nav-container {
+.nav-container, .content {
     width: 75%;
     margin: 0px auto;
 }
@@ -47,7 +55,7 @@ a {
 }
 
 .hero {
-    margin-top: 50px;
+    margin: 100px 0 200px 0;
     display: flex;
     gap: 50px;
 }
@@ -78,7 +86,7 @@ a {
 }
 
 .button {
-    background-color: rgb(54, 122, 233);
+    background-color: #FF7E00;
     font-weight: bold;
     border-radius: 5px;
     border: none;
@@ -90,3 +98,46 @@ a {
     opacity: 90%;
 }
 
+.content {
+    padding: 50px 0 100px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-container {
+    background-color: #008ECF;
+}
+
+.content-heading {
+    font-size: 32px;
+    color: white;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #FF7E00;
+    border-radius: 15px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.card a {
+    border-radius: 5px;
+    color: black;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 5px;
+}
